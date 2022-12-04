@@ -1,24 +1,21 @@
-import React from "react";
+import Nav from "../components/nav";
+import "./index.scss";
 
 const Index = () => {
   return (
     <>
-      <a href="https://reactjs.org" target="_blank">
-        <img
-          src="src/assets/react.svg"
-          className="logo react"
-          alt="React logo"
-          width="40px"
-        />
-      </a>
+      <Nav />
       <h1>Fun facts about React</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100K stars on GitHub</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
+      <section className="box">
+        <ul className="facts">
+          <li>Was first released in 2013</li>
+          <li>Was originally created by Jordan Walke</li>
+          <li>Has well over 100K stars on GitHub</li>
+          <li>Is maintained by Facebook</li>
+          <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+        <img src="src/assets/reactjs-icon.png" alt="react icon" />
+      </section>
     </>
   );
 };

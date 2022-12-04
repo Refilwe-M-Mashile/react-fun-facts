@@ -1,0 +1,13 @@
+Nav {
+  background-color: #21222a;
+  padding: 20px;
+  .logo-section {
+    display: flex;
+    align-items: center;
+    a .logo-text {
+      font-size: 22.25px;
+      font-weight: bold;
+      color: #61dafb;
+    }
+  }
+}

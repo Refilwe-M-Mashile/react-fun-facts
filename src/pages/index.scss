@@ -1,0 +1,22 @@
+h1 {
+  padding-left: 34px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  .facts {
+    font-size: 16px;
+    padding-left: 74px;
+    padding-top: 20px;
+    list-style: none;
+
+    li::before {
+      content: "\2022";
+      color: #61dafb;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
