@@ -1,10 +1,14 @@
 Nav {
   background-color: #21222a;
   padding: 20px;
+  a {
+    text-decoration: none;
+  }
   .logo-section {
     display: flex;
     align-items: center;
     a .logo-text {
+      padding-left: 10px;
       font-size: 22.25px;
       font-weight: bold;
       color: #61dafb;
